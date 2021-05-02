@@ -1,0 +1,28 @@
+{
+  "name": "paylane-backend",
+  "version": "1.0.0",
+  "description": "This is an backend node js server to serve the frontend angular app",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -f ./.env nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/contract": "^4.3.14",
+    "@truffle/hdwallet-provider": "^1.2.3",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.6",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "uuidv4": "^6.2.7",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {}
+}
